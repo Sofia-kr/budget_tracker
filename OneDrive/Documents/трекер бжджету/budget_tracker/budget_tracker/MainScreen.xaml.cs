@@ -1,21 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-
+using MySql.Data.MySqlClient;
 namespace budget_tracker
 {
     public partial class MainScreen : Window
     {
+        
+        private string connectionString = "server=sql7.freesqldatabase.com;port=3306;user=sql7803706;password=DrUIbcmB1f;database=sql7803706;Charset=utf8mb4;";
 
         private List<Transaction> transactions = new List<Transaction>();
         private PeriodType currentPeriod = PeriodType.Day;
@@ -31,7 +26,7 @@ namespace budget_tracker
             cmbType.SelectedIndex = 0;
             cmbAddType.SelectedIndex = 0;
 
-            // Ініціалізуємо DatePicker'и
+            // Ініціалізуємо DatePicker
             dpStartDate.SelectedDate = DateTime.Now;
             dpEndDate.SelectedDate = DateTime.Now;
 
@@ -142,16 +137,6 @@ namespace budget_tracker
             txtGeneralBalance.Foreground = balance >= 0 ? System.Windows.Media.Brushes.Green : System.Windows.Media.Brushes.Red;
         }
 
-        // Double-click handler to return to current period
-        private void BtnDatePeriod_Click(object sender, RoutedEventArgs e)
-        {
-            // Перевіряємо, чи це подвійний клік
-            if (e is MouseButtonEventArgs mouseArgs && mouseArgs.ClickCount == 2)
-            {
-                ReturnToCurrentPeriod();
-            }
-        }
-
         private void ReturnToCurrentPeriod()
         {
             DateTime now = DateTime.Now;
@@ -203,7 +188,6 @@ namespace budget_tracker
             timer.Start();
         }
 
-        // Date Navigation Handlers
         private void BtnPrev_Click(object sender, RoutedEventArgs e)
         {
             if (currentPeriod == PeriodType.Custom)
@@ -270,7 +254,6 @@ namespace budget_tracker
             UpdateAmountDisplay();
         }
 
-        // Period Type Button Handlers
         private void BtnDay_Click(object sender, RoutedEventArgs e)
         {
             currentPeriod = PeriodType.Day;
@@ -354,7 +337,6 @@ namespace budget_tracker
             }
         }
 
-        // Control Button Handlers
         private void BtnChecks_Click(object sender, RoutedEventArgs e)
         {
             ChecksData checksWindow = new ChecksData();
@@ -363,47 +345,20 @@ namespace budget_tracker
 
         private void BtnAddRecord_Click(object sender, RoutedEventArgs e)
         {
-            //if (cmbAddType.SelectedItem is ComboBoxItem selectedItem)
-            //{
-            //    string selectedType = selectedItem.Tag.ToString();
-
-            //    switch (selectedType)
-            //    {
-            //        case "Expenses":
-            //            ExpensesWindow expensesWindow = new ExpensesWindow();
-            //            if (expensesWindow.ShowDialog() == true)
-            //            {
-            //                transactions.Add(expensesWindow.NewTransaction);
-            //                UpdateAmountDisplay();
-            //                UpdateGeneralBalance();
-            //            }
-            //            break;
-            //        case "Income":
-            //            IncomeWindow incomeWindow = new IncomeWindow();
-            //            if (incomeWindow.ShowDialog() == true)
-            //            {
-            //                transactions.Add(incomeWindow.NewTransaction);
-            //                UpdateAmountDisplay();
-            //                UpdateGeneralBalance();
-            //            }
-            //            break;
-            //        case "Savings":
-            //            SavingsWindow savingsWindow = new SavingsWindow();
-            //            if (savingsWindow.ShowDialog() == true)
-            //            {
-            //                transactions.Add(savingsWindow.NewTransaction);
-            //                UpdateAmountDisplay();
-            //                UpdateGeneralBalance();
-            //            }
-            //            break;
-            //    }
-            //}
+          Expenses addRecordWindow = new Expenses();
+          addRecordWindow.ShowDialog();
         }
 
         private void BtnSettings_Click(object sender, RoutedEventArgs e)
         {
             //UserSettingsWindow settingsWindow = new UserSettingsWindow();
             //settingsWindow.ShowDialog();
+        }
+
+        private void BtnDatePeriod_Click(object sender, RoutedEventArgs e)
+        {
+            // TODO: Add your logic for handling the date period button click here.
+            // For now, this is just a placeholder to resolve the CS1061 error.
         }
     }
 

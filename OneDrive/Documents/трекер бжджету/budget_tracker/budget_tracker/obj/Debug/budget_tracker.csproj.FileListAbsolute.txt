@@ -22,3 +22,36 @@ C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\bud
 C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\obj\Debug\ChecksData.baml
 C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\obj\Debug\MainScreen.baml
 C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\obj\Debug\budget_tracker.exe.config
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\obj\Debug\Expenses .g.cs
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\obj\Debug\Expenses .baml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\Google.Protobuf.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\MySql.Data.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Buffers.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.IO.Pipelines.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Memory.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\ZstdSharp.dll
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\Google.Protobuf.pdb
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\Google.Protobuf.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\MySql.Data.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Buffers.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.IO.Pipelines.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Memory.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\s8774\OneDrive\Documents\трекер бжджету\budget_tracker\budget_tracker\obj\Debug\budget_t.AD82FACA.Up2Date
