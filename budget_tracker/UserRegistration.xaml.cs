@@ -43,6 +43,8 @@ namespace budget_tracker
             }
         }
 
+
+
         private void RegistrationButton_Click(object sender, RoutedEventArgs e)
         {
             string email = EmailTextBox.Text.Trim();
@@ -65,23 +67,28 @@ namespace budget_tracker
                 return;
             }
 
-            // Перевірка Name
+            if (IsEmailRegistered(email))
+            {
+                MessageBox.Show("Ви вже зареєстровані!");
+                return;
+            }
+
             if (name.Length > 20)
             {
                 MessageBox.Show("Ім'я повинне містити не більше 20 символів");
                 return;
             }
 
-            // Перевірка Password
+
             if (password.Length < 5)
             {
                 MessageBox.Show("Пароль повинен містити більше 5 символів");
                 return;
             }
 
-            if (IsEmailRegistered(email))
+            if (password.Length > 8)
             {
-                MessageBox.Show("Ви вже зареєстровані!");
+                MessageBox.Show("Пароль повинен містити не більше 8 символів");
                 return;
             }
 
@@ -103,8 +110,11 @@ namespace budget_tracker
                     cmd.ExecuteNonQuery();
                 }
             }
-            // Повідомлення про успіх
+
             MessageBox.Show("Успішна реєстрація!");
+
+            EditingUserData editWindow = new EditingUserData(email);
+            editWindow.ShowDialog();
 
             //MainScreen main = new MainScreen();
             //main.Show();

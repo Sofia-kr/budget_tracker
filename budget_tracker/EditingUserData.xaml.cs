@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,10 +20,47 @@ namespace budget_tracker
     /// </summary>
     public partial class EditingUserData : Window
     {
-        public EditingUserData()
+        private string connectionString = "server=sql7.freesqldatabase.com;port=3306;user=sql7803706;password=DrUIbcmB1f;database=sql7803706;Charset=utf8mb4;";
+        private string userEmail;
+        public EditingUserData(string email)
         {
             InitializeComponent();
+            userEmail = email;
+            LoadUserData();
         }
+        private void LoadUserData()
+        {
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "SELECT Name, Gmail, Password FROM userdata WHERE Gmail=@Email";
+                    using (var cmd = new MySqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@Email", userEmail);
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                NameTextBox.Text = reader["Name"].ToString();
+                                EmailTextBox.Text = reader["Gmail"].ToString();
+                                PasswordBox.Password = reader["Password"].ToString();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Користувача не знайдено!");
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Помилка при завантаженні даних: " + ex.Message);
+                }
+            }
+        }
+
 
         private void ReturnButton_Click(object sender, RoutedEventArgs e)
         {
@@ -40,6 +78,48 @@ namespace budget_tracker
 
         private void SaveDataButton_Click(object sender, RoutedEventArgs e)
         {
+            string newName = NameTextBox.Text.Trim();
+            string newPassword = PasswordBox.Password.Trim();
+
+            if (string.IsNullOrEmpty(newName) || string.IsNullOrEmpty(newPassword))
+            {
+                MessageBox.Show("Заповніть усі поля!");
+                return;
+            }
+
+            if (newPassword.Length < 5 || newPassword.Length > 8)
+            {
+                MessageBox.Show("Пароль повинен містити від 5 до 8 символів!");
+                return;
+            }
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    string updateQuery = @"UPDATE userdata 
+                                           SET Name=@Name, Password=@Password 
+                                           WHERE Gmail=@Email";
+
+                    using (var cmd = new MySqlCommand(updateQuery, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@Name", newName);
+                        cmd.Parameters.AddWithValue("@Password", newPassword);
+                        cmd.Parameters.AddWithValue("@Email", userEmail);
+
+                        int rows = cmd.ExecuteNonQuery();
+                        if (rows > 0)
+                            MessageBox.Show("Дані оновлено");
+                        else
+                            MessageBox.Show("Не вдалося оновити дані");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Помилка при оновленні даних: " + ex.Message);
+                }
+            }
 
         }
     }

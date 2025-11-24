@@ -1,4 +1,8 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\budget_tracker"
+  ],
+  "SelectedNode": "\\budget_tracker\\UserRegistration.xaml",
   "PreviewInSolutionExplorer": false
 }
