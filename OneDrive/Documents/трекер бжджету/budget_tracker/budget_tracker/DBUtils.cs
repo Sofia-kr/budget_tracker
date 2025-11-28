@@ -12,7 +12,7 @@ namespace budget_tracker
     {
         public static MySqlConnection GetDBConnection()
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["MyDatabaseConnection"].ConnectionString;
+           string connectionString = "server=sql7.freesqldatabase.com;port=3306;user=sql7803706;password=DrUIbcmB1f;database=sql7803706;Charset=utf8mb4;";
             return new MySqlConnection(connectionString);
         }
     }
