@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s8774\\source\\repos\\Sofia-kr\\budget_tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\s8774\\source\\repos\\Sofia-kr\\budget_tracker\\budget_tracker\\UserSignIn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:budget_tracker\\UserSignIn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460B5FA7-21BC-44E3-BBA6-9DA019894F13}|budget_tracker\\budget_tracker.csproj|c:\\users\\s8774\\source\\repos\\sofia-kr\\budget_tracker\\budget_tracker\\editinguserdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{460B5FA7-21BC-44E3-BBA6-9DA019894F13}|budget_tracker\\budget_tracker.csproj|solutionrelative:budget_tracker\\editinguserdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserSignIn.xaml",
+              "DocumentMoniker": "C:\\Users\\s8774\\source\\repos\\Sofia-kr\\budget_tracker\\budget_tracker\\UserSignIn.xaml",
+              "RelativeDocumentMoniker": "budget_tracker\\UserSignIn.xaml",
+              "ToolTip": "C:\\Users\\s8774\\source\\repos\\Sofia-kr\\budget_tracker\\budget_tracker\\UserSignIn.xaml",
+              "RelativeToolTip": "budget_tracker\\UserSignIn.xaml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-29T00:19:00.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditingUserData.xaml",
+              "DocumentMoniker": "C:\\Users\\s8774\\source\\repos\\Sofia-kr\\budget_tracker\\budget_tracker\\EditingUserData.xaml",
+              "RelativeDocumentMoniker": "budget_tracker\\EditingUserData.xaml",
+              "ToolTip": "C:\\Users\\s8774\\source\\repos\\Sofia-kr\\budget_tracker\\budget_tracker\\EditingUserData.xaml",
+              "RelativeToolTip": "budget_tracker\\EditingUserData.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-28T23:42:02.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,3 +17,17 @@ C:\budget_tracker\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\budget_tracker\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
 C:\budget_tracker\WpfApp1\WpfApp1\obj\Debug\UserSignIn.baml
 C:\budget_tracker\WpfApp1\WpfApp1\obj\Debug\UserSignIn.g.cs
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.exe.config
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\UserSignIn.baml
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\UserSignIn.g.cs
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\App.g.cs
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\Saving.baml
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\Saving.g.cs
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\s8774\source\repos\Sofia-kr\budget_tracker\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
